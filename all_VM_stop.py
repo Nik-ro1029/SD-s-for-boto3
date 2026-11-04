@@ -26,3 +26,6 @@ def stop_all_vms():
 
     if not found:
         print("No instances found in ap-southeast-2.")
+
+        if __name__ == "__main__":
+         stop_all_vms()
